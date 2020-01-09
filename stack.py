@@ -125,7 +125,7 @@ def gameOver():
     loop = True
 
     font = pygame.font.SysFont("Agency FB", 60)
-    text = font.render("Game Over!", True, white)
+    text = font.render("Game Over! Sorry !", True, white)
 
     textRect = text.get_rect()
     textRect.center = (width/2, height/2 - 80)
